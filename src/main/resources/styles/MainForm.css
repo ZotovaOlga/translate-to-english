@@ -1,0 +1,30 @@
+.root {
+    -fx-background-image: url("../images/background.jpg");
+    -fx-border-width: 2px;
+    -fx-border-radius: 2px;
+    -fx-border-color: black;
+    -fx-border-style: solid;
+}
+
+#questionLabel{
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #F2FAFC;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+#questionWordLabel{
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #d9e6eb;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 ); 
+}
+
+.answerButton {
+    -fx-font-size: 12px;
+    -fx-font-weight: normal;
+    -fx-font-style: italic;
+    -fx-background-color: #91d5df;
+    -fx-width: 50px;
+    -fx-height: 30px
+}

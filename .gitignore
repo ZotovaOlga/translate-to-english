@@ -1,0 +1,11 @@
+### maven files
+/target/
+/.settings
+
+### netbeans files
+nb-configuration.xml
+nbactions.xml
+
+### eclipse
+.classpath
+.project
